@@ -1,0 +1,7 @@
+echo "# xiaomi3pro-openwrt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jackexin/xiaomi3pro-openwrt.git
+git push -u origin main
